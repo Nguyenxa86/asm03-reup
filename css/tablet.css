@@ -1,0 +1,10 @@
+/* TABLET */
+@media (max-width: 768px) {
+  .navbar div:nth-child(3) {
+    display: none;
+  }
+  /* THÔNG TIN CÁ NHÂN */
+  #about .col-md {
+    padding: 10px;
+  }
+}

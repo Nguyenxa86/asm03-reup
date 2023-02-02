@@ -1,0 +1,23 @@
+/* Mobile */
+@media (max-width: 500px) {
+  /* NAVBAR*/
+  .navbar {
+    flex-direction: column;
+    text-align: left;
+    border: none;
+  }
+  .navbar div {
+    width: 100%;
+  }
+  #nav-bar div {
+    border: none;
+  }
+  #nav-bar {
+    margin: 15px 0;
+  }
+  /* Thông tin cá nhân */
+  /* Footer */
+  .bg-grey {
+    background: none;
+  }
+}

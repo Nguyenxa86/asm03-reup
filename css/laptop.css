@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: 50px auto;
+  display: block;
+
+  /* padding: 30px 50px; */
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* BANNER */
+.banner-text {
+  color: #f7f7f7;
+  text-align: center;
+  top: 35%;
+  left: 40%;
+}
+/* NARBAR */
+
+#nav-bar div {
+  border-left: #333 solid 1px;
+  padding: 0 25px 0 15px;
+
+  text-transform: uppercase;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: #333;
+}
+#nav-bar div:nth-child(3) {
+  border-left: none;
+  text-transform: capitalize;
+}
+#nav-bar div:nth-child(2) {
+  border-right: #333 solid 1px;
+}
+
+/* THÔNG TIN CÁ NHÂN */
+#about li {
+  margin-bottom: 10px;
+}
+.left,
+.right1,
+.right2 {
+  width: 50%;
+}
+#thongtin {
+  display: none;
+}
+/* THÔNG TIN NGHỀ NGHIỆP */
+#job-infor li {
+  list-style-type: disc;
+}
+#job-infor li::marker {
+  color: blue;
+  font-size: 20px;
+  padding-top: 10px;
+}
+/* THÔNG TIN NGHỀ NGHIỆP - Tiêu chí 10 - ẩn thông tin nghề nghiệp */
+.job-btn {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #e8d244;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.hidden {
+  display: none;
+}
+
+/* Kinh nghiệm */
+.exp-span1,
+.project-span1,
+.project-span2,
+.project-span3 {
+  font-style: italic;
+  color: white;
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #1538e9;
+}
+/* Học vấn */
+/* Hoạt Động */
+/* Sở thích */
+.hobby-icon {
+  font-size: 30px;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 70%;
+  width: 65px;
+  text-align: center;
+  padding-top: 20px;
+}
+/* Ngôn ngữ */
+#lang span {
+  display: inline-block;
+  background: #199cdb;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+#lang .span2 span:nth-child(2),
+#lang .span2 span:nth-child(3) {
+  background: #5755553d;
+}
+/* Kỹ năng */
+#skill span {
+  display: inline-block;
+  background: #5755553d;
+  height: 3px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+#skill .span1 span:first-child,
+#skill .span2 span:first-child,
+#skill .span3 span:first-child,
+#skill .span4 span:first-child,
+#skill .span4 span:nth-child(2) {
+  background: #199cdb;
+}
+/* DỰ ÁN */
+.bordertop {
+  border-top: solid 1px #8d91937d;
+}
+/* Utilities */
+.grid2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
